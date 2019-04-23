@@ -24,10 +24,11 @@ package org.codehaus.plexus.components.interactivity.jline;
  * SOFTWARE.
  */
 
-import jline.ConsoleReader;
 import org.codehaus.plexus.components.interactivity.AbstractInputHandler;
 import org.codehaus.plexus.personality.plexus.lifecycle.phase.Initializable;
 import org.codehaus.plexus.personality.plexus.lifecycle.phase.InitializationException;
+
+import jline.console.ConsoleReader;
 
 import java.io.IOException;
 
